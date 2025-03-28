@@ -1,0 +1,122 @@
+body * + * {
+    margin-top: 1.5em;
+    }
+:root {
+    box-sizing: border-box;
+    }
+    *,
+    ::before,
+    ::after { box-sizing: inherit;
+}
+.third-party-component {
+    box-sizing: content-box;
+    }
+    .body{
+        background-color: #fff;
+
+    }
+    .head{
+        background-image: url('/third-project/images/background.jpeg') ;
+        color:white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        
+    }
+    .head-h{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+.navbar{
+    border: .5em 1 mediumpurple;
+    border-radius: .8em;
+    background-color: rgb(139, 83, 8);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    list-style: none;
+
+    
+}
+    
+.navbar > li{
+    margin-top: 0;
+    color: #fff;
+}
+.main-side{
+    background-color:#fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.main-head{
+    text-align:start;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 60%;
+    height:auto
+}
+.side{
+    display: flex;
+    margin-top: .2em;
+    margin-bottom: .5em;
+
+}
+
+.side-head{
+    text-align:start;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0; 
+}
+
+.sidepic{
+    width: 100px;
+    height: auto;
+}
+.sidebar{
+    border: 1em 1.5em red;
+    width: 40%;
+    height: auto;
+    padding: 1em 1.5em;
+}
+
+.foot-div{
+    background-color: azure;
+    
+}
+.foot{
+    
+    display: flex;
+
+}
+.foothead{
+    border: 1em 1.5em burlywood;
+    background-color: aqua;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.part-head{
+    text-align: start;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}

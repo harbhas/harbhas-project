@@ -1,0 +1,43 @@
+body * + * {
+    margin-top: 1.5em;
+    }
+:root {
+    box-sizing: border-box;
+    }
+    *,
+    ::before,
+    ::after { box-sizing: inherit;
+}
+.third-party-component {
+    box-sizing: content-box;
+    }
+body {
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .page{
+        background-color: bisque;
+        display: flex;
+        
+    }
+    .head{
+        background-color: blue;
+        padding: 1em 1.5em;
+        color:#eee;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0;
+        
+
+    }
+    .body{
+        
+        border: .1em pink solid ;
+        padding: 0.5em 0.8em;  
+        margin: 0 auto;
+        border-radius: 5px;
+        margin-left: .3em;
+        text-transform: capitalize;
+    }
+    
