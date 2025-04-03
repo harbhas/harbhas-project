@@ -1,0 +1,125 @@
+body * + * {
+    margin-top: 1.5em;
+    }
+:root {
+    box-sizing: border-box;
+    }
+    *,
+    ::before,
+    ::after { box-sizing: inherit;
+}
+.third-party-component {
+    box-sizing: content-box;
+    }
+
+    .bod{
+        background-color: #000;
+        color:#fff;
+        padding-top: 60px;
+
+    }
+.ju{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: aquamarine;
+    border: 1em #fff solid ;
+    padding-left: 0;
+    border-radius: 1.5em;
+    margin-bottom: 0;
+    box-shadow: 0 2px 5px #fff;
+    top: 0;
+    left: 0;
+
+    
+
+    
+}
+.head{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0;
+}
+
+.head2{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    margin-top: 0;
+}
+
+.back-img{
+    width: 100%;
+    background-image: url(/second-project/images/images/bgbg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:  center;
+    margin: 0 auto;
+}
+.table{
+    margin: 0 auto;
+
+}
+.image{
+    width: 200px;
+    
+
+}
+ a{
+    text-decoration: none;
+    color: purple;
+}
+.list{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding-left: .2em;
+    padding-right: 1em;
+    margin-right: 0;
+}
+.list > li {
+    margin-top: 0;
+}
+.cs{
+    background-color: aqua;
+    border: 1.5em #fff sold;
+    border-radius: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+} 
+.cs > *{
+    margin-top: 0;
+    margin-left: 1.5em;
+}
+.span{
+    margin-top: 0;
+}
+.heah{
+margin-bottom:0;
+}
+.cour{
+    text-align: center;
+    text-transform: capitalize ;
+    margin: 1em auto;
+}
+.kl2{
+    background-color: aquamarine;
+}
+
+.kl{
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: .5em;
+}
+.kl > li{
+    margin-top: 0;
+}
